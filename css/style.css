@@ -1,0 +1,60 @@
+body{
+	background: linear-gradient(to top, #F26C1A, white 30%);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.baner img{
+	width: 100%;
+	height: 100%;
+}
+a:link{
+	text-decoration: none;
+	font-size: 18pt;
+	color: #5A392B;
+}
+a:hover{
+	cursor: hand;
+	font-weight: bold;
+}
+.baner{
+	width: 100%;
+}
+.menu{
+	float: left;
+	width: 20%;
+}
+.zawartosc{
+	width: 80%;
+	min-height: 500px;
+}
+.stopka{
+	width: 100%;
+	margin: 0;
+	clear: left;
+	text-align: center;
+}
+.menu li{
+	list-style-type: none;
+}
+input.logowanie{
+    padding: 6px 15px;
+    margin: 4px 0;
+    box-sizing: border-box;
+	border: 1px solid #5A392B;
+    border-radius: 4px;
+}
+input.szukaj{
+    background-image: url('../img/szukaj.png');
+    box-sizing: border-box;
+    border: 1px solid #5A392B;
+    border-radius: 4px;
+    font-size: 12pt;
+    background-color: white;
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 40px;
+}
