@@ -6,7 +6,7 @@
 		'SELECT a.id_auta, m.nazwa_marki, a.model, a.rok_produkcji, a.status, a.data_dodania 
 		FROM auta a, marki m 
 		WHERE a.id_marki=m.id_marki');
-		echo '<table>
+		echo '<table border="1">
 				 <tr>
 					<th>Lp</th>
 					<th>Marka</th>
