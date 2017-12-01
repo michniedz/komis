@@ -22,7 +22,7 @@
 		$zapytanie = mysqli_query($polaczenie, 
 		'INSERT INTO auta VALUES(null, '.$id_marki.', "'.$model.'", '.$rok_produkcji.', "'.$kolor.'", '.$przebieg.', "'.$kraj_pochodzenia.'", "'.$rodzaj_paliwa.'", "'.$nadwozie.'", '.$silnik.', "'.$skrzynia_biegow.'", '.$status.', '.$cena.', '.($ilosc+1).', now())');
 		if($zapytanie)
-			echo 'Dodane auto';
+			echo 'Dodane autoo';
 		else 
 			echo 'Błąd 1';
 		if(isset($_GET['abs']))
