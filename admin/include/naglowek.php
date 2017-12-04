@@ -4,6 +4,8 @@
 		<meta charset="UTF-8" />
 		<title>KOMIS SAMCHODOWY - KLASA IVi</title>
 		<link href="../css/style.css" rel="Stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	</head>
 	<body>
 	<?php

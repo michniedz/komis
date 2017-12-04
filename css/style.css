@@ -58,3 +58,6 @@ input.szukaj{
     background-repeat: no-repeat;
     padding: 6px 20px 6px 40px;
 }
+td{
+	 text-align:center;
+}
